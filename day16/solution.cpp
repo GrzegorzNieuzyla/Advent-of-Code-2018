@@ -123,7 +123,7 @@ getLookupTable(std::vector<std::array<std::array<int, 4>, 3>> data){
     return table;
 }
 
-// get count of instructions that behave like three or more opcodes
+// get count of opcodes specified instruction behaves like
 int test_opcode(std::array<std::array<int, 4>, 3>& states){
     int count = 0;
     for(auto fun : opcodes){
