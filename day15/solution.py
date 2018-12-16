@@ -215,7 +215,7 @@ def main():
             step = 1
             continue
 
-        # Elves has won, calculate final result
+        # Elves have won, calculate final result
         total_hp = 0
         for char in characters.values():
             total_hp += char['hp']
